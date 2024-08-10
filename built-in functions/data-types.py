@@ -1,0 +1,7 @@
+print(dict())
+print(float())
+print(int())
+print(tuple())
+print(object())
+print(bool(0))
+print(bool(1))
