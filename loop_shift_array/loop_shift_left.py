@@ -8,4 +8,5 @@ for k in range(len(A)):
     B[k] = A[k+1]
 
 
+
 print(B)
