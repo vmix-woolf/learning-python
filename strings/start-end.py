@@ -27,3 +27,6 @@ In a one horse open sleigh'''
 
 print(text)
 print(song)
+
+implicit_concatenation = "some text " "and other text"
+print(implicit_concatenation)
