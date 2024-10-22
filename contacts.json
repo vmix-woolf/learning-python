@@ -1,0 +1,16 @@
+{
+    "contacts": [
+        {
+            "name": "Allen Raymond",
+            "email": "nulla.ante@vestibul.co.uk",
+            "phone": "(992) 914-3792",
+            "favorite": false
+        },
+        {
+            "name": "Post Man API",
+            "email": "nulla.post@vestibul.co.uk",
+            "phone": "(999) 000-1122",
+            "favorite": true
+        }
+    ]
+}
