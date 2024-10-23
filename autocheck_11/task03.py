@@ -12,11 +12,14 @@ def write_contacts_to_file(filename, contacts):
 
 def read_contacts_from_file(filename):
     with open(filename, 'r') as fh:
-        reader = csv.DictReader(fh)
-
-        for row in reader:
-            print(row)
-
+        with open(filename, 'r') as fh:
+            reader = csv.DictReader(fh)
+            lst = []
+            for row in reader:
+                row['favorite'] = True if row['favorite'] == 'True' else False
+                lst.append(row)
+            return lst
+    
 
 filename = './students.csv'
 contacts = [
@@ -54,4 +57,4 @@ contacts = [
 
 
 write_contacts_to_file(filename, contacts)
-read_contacts_from_file(filename)
+print(read_contacts_from_file(filename))
